@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(135deg,#0f172a,#1e293b);
+  color: white;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+}
+
+.add-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-box input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #1e293b;
+  color: white;
+}
+
+.add-box button {
+  background: #22c55e;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+}
+
+.column {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card {
+  background: #334155;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/* Task */
+.task-card {
+  background: #0f172a;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.task-card button {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.delete {
+  background: red;
+  color: white;
+}
+
+/* Empty text */
+.empty {
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+/* Completed */
+.done {
+  color: #22c55e;
+  font-weight: bold;
+}
